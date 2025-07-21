@@ -181,28 +181,19 @@
     <div class="subscribe-popup" id="subscribe-popup">
       <div class="popup-content">
         <span class="close-popup">&times;</span>
-
-        <!-- Brevo From Start-->
-         <div id="sib-form-container" class="sib-form-container">
-          <div id="error-message" class="sib-form-message-panel" style="display:none;">
-            <span>Your subscription could not be saved. Please try again.</span>
-          </div>
-
-          <div id="success-message" class="sib-form-message-panel" style="display:none;">
-            <span>Thank you for subscribing!</span>
-          </div>
-
-          <form id="sib-form" method="POST" action="https://552b377a.sibforms.com/serve/MUIFAAo377RMMLYZGtOa7p-Yh21CJO_qSSR0KttNWpQJjrh-xqwYlKDVR3N_Y-Gi-l9xTi22spvay-dvUlSPQgMq54Bu5Bre81eSqhrmQxUzSoF6HC8vzqF5nRfnG__m4Aw4DfsadGveQxFYKlY2mPRA_8NoAVcFIrc7fRpuIeUVf8CPHJySqt0FDym3yneV5vEn_Naau2iCnilQ">
-            <input type="text" name="FIRSTNAME" id="FIRSTNAME" placeholder="Your First Name" required>
-            <input type="email" name="EMAIL" id="EMAIL" placeholder="Your Email Address" required>
-            <button type="submit" class="subscribe-button">Subscribe</button>
-            <input type="hidden" name="email_address_check" value="" class="input--hidden">
-            <input type="hidden" name="locale" value="en">
-          </form>
-         </div>
+        <!-- Brevo iframe starts here -->
+        <iframe width="540" height="305" 
+          src="https://552b377a.sibforms.com/serve/MUIFAAo377RMMLYZGtOa7p-Yh21CJO_qSSR0KttNWpQJjrh-xqwYlKDVR3N_Y-Gi-l9xTi22spvay-dvUlSPQgMq54Bu5Bre81eSqhrmQxUzSoF6HC8vzqF5nRfnG__m4Aw4DfsadGveQxFYKlY2mPRA_8NoAVcFIrc7fRpuIeUVf8CPHJySqt0FDym3yneV5vEn_Naau2iCnilQ"
+          frameborder="0"
+          scrolling="auto"
+          allowfullscreen
+          style="display: block; margin: 0 auto; max-width: 100%;">
+        </iframe>
+        <!-- Brevo iframe ends here -->
       </div>
     </div>
 
+    
     <script src="./JavaScript_folder/home_subscribe.js"></script>
   </body>
 </html>
