@@ -188,8 +188,9 @@ footer{
   background: rgba(225, 225, 225, 0.95);
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 2rem;
-  width: 300px;
+  padding: 1rem;
+  width: 600px;
+  max-width: 90%;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   font-family: 'Open Sans', sans-serif;
   justify-content: center;
@@ -197,14 +198,13 @@ footer{
 }
 
 .popup-content{
-  position: relative;
-  text-align: center;
   background: #fff;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 10px;
-  width: 90%;
-  max-width: 400px;
+  width: 100%;
+  max-width: 100%;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .popup-content h3{
