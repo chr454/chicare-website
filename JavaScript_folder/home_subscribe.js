@@ -2,7 +2,7 @@ const popup = document.getElementById("subscribe-popup");
 const closeBtn = document.querySelector(".close-popup");
 
 function showPopup() {
-  popup.style.display = "flex";
+  popup.style.display = "block";
 }
 
 function hidePopup() {
@@ -14,8 +14,7 @@ setTimeout(showPopup, 12000);
 closeBtn.addEventListener("click", hidePopup);
 
 window.addEventListener("click", function (event) {
-  const popupContent = document.querySelector(".popup-content");
-  if (event.target === popup && !popupContent.contains(event.target)) {
+  if (event.target === popup) {
     hidePopup();
   }
 });
