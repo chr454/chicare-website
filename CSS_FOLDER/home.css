@@ -260,6 +260,23 @@ footer{
   color: #555;
 }
 
+#sib-form input[type="email"],
+#sib-form input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+#sib-form .subscribe-button {
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+
+
 @media (max-width: 768px) {
   .feartured-pair{
     flex-direction: column;
