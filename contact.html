@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Chicare Ventures</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./CSS_FOLDER/general.css" />
+  <link rel="stylesheet" href="./CSS_FOLDER/contact.css" />
+</head>
+<body>
+   <header class="navbar">
+      <div class="logo">
+        <img src="./images/your_logo2.jpg" alt="Chicare Ventures logo" height="100" />
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="./HOME.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Shop <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="./shop.html#beauty">Beauty Products</a></li>
+              <li><a href="./shop.html#snacks">Snacks</a></li>
+              <li><a href="./shop.html#scents">Signature Scent</a></li>
+              <li><a href="#">Handmade & fashion</a></li>
+            </ul>
+          </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact-wrapper">
+      <div class="contact-left">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to place an order? Fill out the form below and we'll get back to you shortly.</p>
+        <form 
+         action="https://formspree.io/f/mwpbzojr" 
+         method="POST" 
+         class="contact-form" 
+         id="contactForm"
+       >
+         <input type="text" name="name" placeholder="Your Name" required>
+         <input type="email" name="email" placeholder="Your Email" required>
+         <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+         <button type="submit">Send Message</button>
+         <p id="form-status" class="form-status"></p>
+        </form>
+
+       
+      </div>
+      
+
+      <div class="contact-right">
+        <h3>Contact Info</h3>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> chicareventures@gmail.com</p>
+          <p><i class="fab fa-whatsapp"></i> +234 901 941 5084</p>
+          <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/chicare_ventures" target="_blank">@chicare_ventures</a></p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/chicareventures_?igsh=eHNvdjNtZmpkbzlm" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/2349019415084" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:chicareventures@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-bottom">
+        <p>&copy; 2025 Chicare Ventures - All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./JavaScript_folder/contact.js"></script>
+
+</body>
+</html>
